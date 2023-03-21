@@ -1,0 +1,120 @@
+#new-users {
+  border: 0.2em solid #f9c56c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#new-users h2 {
+  background-color: #f9c56c;
+  margin: 0;
+}
+
+#users {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 5rem;
+}
+
+#announcements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#announcements h2 {
+  background-color: #BFDBFE;
+  margin: 0;
+}
+
+.announcement-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5rem;
+}
+.announcement-list .announcement {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+.announcement-list .announcement img {
+  margin-right: 1rem;
+  align-self: flex-start;
+}
+.announcement-list .announcement span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.announcement-list .announcement span h3 {
+  width: fit-content;
+  margin-bottom: 0.2rem;
+}
+.announcement-list .announcement span p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+#recent-discussions h2 {
+  background-color: #BFDBFE;
+  margin: 0;
+}
+#recent-discussions section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+#recent-discussions section .forum-name {
+  margin-bottom: 0.2rem;
+  width: fit-content;
+}
+#recent-discussions section sub {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: lightslategray 0.1rem solid;
+}
+
+#featured-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#featured-articles h2 {
+  background-color: #BFDBFE;
+  margin: 0;
+}
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5rem;
+}
+.article-list .article {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+.article-list .article img {
+  margin-right: 1rem;
+  align-self: flex-start;
+}
+.article-list .article span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.article-list .article span h3 {
+  width: fit-content;
+  margin-bottom: 0.2rem;
+}
+.article-list .article span p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=app.component.css.map */

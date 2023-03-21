@@ -1,0 +1,145 @@
+$light-orange: #f9c56c;
+$light-blue: #BFDBFE;
+
+#new-users {
+  border: 0.2em solid $light-orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h2 {
+    background-color: $light-orange;
+    margin: 0;
+  }
+}
+
+#users {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 5rem;
+}
+
+#announcements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h2 {
+    background-color: $light-blue;
+    margin: 0;
+  }
+}
+
+.announcement-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5rem;
+
+  .announcement {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 2rem;
+
+
+    img {
+      margin-right: 1rem;
+      align-self: flex-start;
+    }
+
+    span {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      h3 {
+        width: fit-content;
+        margin-bottom: 0.2rem;
+      }
+
+      p {
+        margin-top: 0;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+#recent-discussions{
+  h2 {
+    background-color: $light-blue;
+    margin: 0;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+
+    .forum-name{
+      margin-bottom: 0.2rem;
+      width: fit-content;
+    }
+
+    sub{
+      //set width to fit parent
+      width: 100%;
+
+      margin-bottom: 1rem;
+      padding-bottom: 0.3rem;
+      border-bottom: lightslategray 0.1rem solid;
+    }
+  }
+}
+
+#featured-articles{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h2 {
+    background-color: $light-blue;
+    margin: 0;
+  }
+}
+
+.article-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5rem;
+
+  .article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 2rem;
+
+
+    img {
+      margin-right: 1rem;
+      align-self: flex-start;
+    }
+
+    span {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      h3 {
+        width: fit-content;
+        margin-bottom: 0.2rem;
+      }
+
+      p {
+        margin-top: 0;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+

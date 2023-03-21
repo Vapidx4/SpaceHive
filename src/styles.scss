@@ -1,1 +1,136 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use "sass:map";
+
+$primary-color: #1D4ED8;
+$secondary-color: #60A5FA;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: lightslategray;
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  // align the main container to the center of the page
+  margin: 0 auto;
+
+}
+
+#main-header {
+  background-color: $primary-color;
+  color: white;
+
+}
+
+#top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+
+  h2 {
+    margin: 0;
+    padding: 0 0 0 1rem;
+  }
+
+  .menu-links {
+    padding-right: 1rem;
+  }
+
+  form {
+    label {
+      margin-right: 0.5rem;
+    }
+
+    input {
+      margin-right: 0.5rem;
+    }
+
+    button {
+      margin-right: 0.5rem;
+    }
+  }
+
+
+}
+
+#main-content {
+  background-color: white;
+}
+
+nav {
+  background-color: $secondary-color;
+
+  display: flex;
+  flex-direction: row;
+  color: black;
+  // justify-content: space-between;
+}
+
+.menu-links {
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  li {
+    white-space: nowrap;
+    padding-right: 0.2rem;
+
+    &::after {
+      content: '|';
+      padding-left: 0.2rem;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        border-radius: 0.1rem;
+        background-color: #f1f1f1;
+        color: $primary-color;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    &:last-child::after {
+      content: none;
+    }
+  }
+
+
+}
+
+.left {
+  justify-content: flex-start; // Align heading to the left
+}
+
+.center {
+  justify-content: center; // Center form
+}
+
+.right {
+  justify-content: flex-end; // Align anchors to the right
+}
+
