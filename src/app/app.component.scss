@@ -1,5 +1,12 @@
 $light-orange: #f9c56c;
 $light-blue: #BFDBFE;
+$dark-blue: #1D4ED8;
+
+#main-content{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 
 #new-users {
   border: 0.2em solid $light-orange;
@@ -139,6 +146,38 @@ $light-blue: #BFDBFE;
         font-size: 0.9rem;
       }
     }
+  }
+}
+
+#authentication {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+
+  border: 0.1em solid $dark-blue;
+
+  input {
+    margin-bottom: 0.5rem;
+  }
+
+  label {
+    margin-right: 0.5rem;
+  }
+
+  #login-button{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: white;
+    color: $dark-blue;
+  }
+
+  #signup-button{
+    margin-top: 0.5rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
   }
 }
 

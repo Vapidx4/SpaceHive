@@ -73,6 +73,7 @@
     </nav>
   </header>
   <main id="main-content">
+    <section id="mid-left">
     <article id="new-users">
       <h2>Cool New People</h2>
       <div id="users">
@@ -80,7 +81,7 @@
           <a href="http://localhost:4200">
             <h3>Username</h3>
             <img
-              src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+              src="../assets/pfp.jpg"
               alt="User Avatar" style="height: 80px; width: 80px;">
           </a>
         </section>
@@ -88,7 +89,7 @@
           <a href="http://localhost:4200">
             <h3>Username</h3>
             <img
-              src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+              src="../assets/pfp.jpg"
               alt="User Avatar" style="height: 80px; width: 80px;">
           </a>
         </section>
@@ -96,7 +97,7 @@
           <a href="http://localhost:4200">
             <h3>Username</h3>
             <img
-              src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+              src="../assets/pfp.jpg"
               alt="User Avatar" style="height: 80px; width: 80px;">
           </a>
         </section>
@@ -104,7 +105,7 @@
           <a href="http://localhost:4200">
             <h3>Username</h3>
             <img
-              src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+              src="../assets/pfp.jpg"
               alt="User Avatar" style="height: 80px; width: 80px;">
           </a>
         </section>
@@ -115,7 +116,7 @@
       <div class="announcement-list">
         <section class="announcement">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Announcement Title</h3>
@@ -127,7 +128,7 @@
         </section>
         <section class="announcement">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Announcement Title</h3>
@@ -139,7 +140,7 @@
         </section>
         <section class="announcement">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Announcement Title</h3>
@@ -151,7 +152,7 @@
         </section>
         <section class="announcement">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Announcement Title</h3>
@@ -187,7 +188,7 @@
       <div class="article-list">
         <section class="article">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Article Title</h3>
@@ -199,7 +200,7 @@
         </section>
         <section class="article">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Article Title</h3>
@@ -211,7 +212,7 @@
         </section>
         <section class="article">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Article Title</h3>
@@ -223,7 +224,7 @@
         </section>
         <section class="article">
           <img
-            src="https://cdn.vectorstock.com/i/preview-1x/95/21/cute-ginger-girl-avatar-portrait-profile-picture-vector-43809521.jpg"
+            src="../assets/pfp.jpg"
             alt="User Avatar" style="height: 80px; width: 80px;">
           <span>
             <h3>Article Title</h3>
@@ -235,22 +236,48 @@
         </section>
       </div>
     </article>
-    <aside id="authentication">
+    </section>
+    <section id="mid-right">
+      <aside id="authentication">
       <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <br>
-        <label for="remember">Remember Me:</label>
-        <input type="checkbox" id="remember" name="remember">
-        <br>
-        <button type="submit">Login</button>
-        <button type="button">Signup</button>
-        <a href="http://localhost:4200">Forgot Password?</a>
+        <table>
+          <tbody>
+          <tr>
+            <td>
+              <label for="username">Username:</label>
+            </td>
+            <td>
+              <input type="text" id="username" name="username">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Password:</label>
+            </td>
+            <td>
+              <input type="password" id="password" name="password">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" id="remember" name="remember">
+              <label for="remember">Remember Me</label>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button type="submit" id="login-button">Login</button>
+              <button type="button" id="signup-button">Sign Up!</button>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
       </form>
+      <a href="http://localhost:4200">Forgot Password?</a>
     </aside>
+    </section>
   </main>
 </div>
 <router-outlet></router-outlet>
